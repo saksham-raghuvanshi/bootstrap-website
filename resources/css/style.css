@@ -33,6 +33,14 @@ nav{
 
 }
 
+.navbar-brand:hover,.navbar-brand:active{
+    color: #fff;
+}
+
+.navbar-brand:link,.navbar-brand:visited{
+    color: #fff;
+}
+
 button.navbar-toggler{
     font-size: 30px;
 }
@@ -48,3 +56,25 @@ button.navbar-toggler{
 #navmenu:hover,#navmenu:active{
     color: #5f7892;
 }
+header{
+    background-color: #627c96;
+    background-size: cover ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+#avatar{
+    border-radius: 50%;
+    image-resolution:inherit ;
+    max-width: 100%;
+    height: auto;
+
+    }
+
+
+header h1{
+    font-weight: 700;
+}
+
