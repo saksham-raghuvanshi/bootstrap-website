@@ -1,0 +1,25 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+nav{
+    background-color: #2C3E50;
+    
+}
+
+#main-navbar{
+    
+}
+.navbar-brand{
+    font-weight: 500;
+    color: #fff;
+    padding: 24px;
+
+}
+
+button.navbar-toggler{
+    font-size: 22px;
+}
