@@ -4,22 +4,47 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+font-size: 20px;
+background-color: #fff;
+font-family: Lato,sans-serif;
+font-weight: 300;
+text-rendering: optimizeLegibility;
+overflow-x: hidden;
+}
 
 nav{
     background-color: #2C3E50;
     
 }
 
-#main-navbar{
-    
-}
+
 .navbar-brand{
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     padding: 24px;
+    margin: 0 20px 0 0;
 
 }
 
 button.navbar-toggler{
-    font-size: 22px;
+    font-size: 30px;
+}
+
+
+#navmenu{
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+#navmenu:hover,#navmenu:active{
+    color: #5f7892;
 }
