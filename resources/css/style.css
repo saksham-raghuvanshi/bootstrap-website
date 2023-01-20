@@ -17,6 +17,7 @@ font-family: Lato,sans-serif;
 font-weight: 300;
 text-rendering: optimizeLegibility;
 overflow-x: hidden;
+scroll-behavior: smooth;
 }
 
 nav{
@@ -126,4 +127,15 @@ header h1{
 
   .divider-custom.divider-light #icon{
     color: #2C3E50;
+  }
+
+
+  #btn-back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+    border-radius: 50%;
+    
+
   }
